@@ -38,7 +38,8 @@ export default class extends Component {
                 <Figurita 
                 pais='argentina'
                 foto='https://t1.ea.ltmcdn.com/es/images/7/9/5/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg'
-                nombre='Juana Perez' />
+                nombre='Juana Perez'
+                key={id} />
             )}
           </div>
           // Muestro un boton para acceder al component Partido
@@ -52,20 +53,6 @@ export default class extends Component {
             </button>
           </Link>
         </div>
-        <style jsx>{`
-          h1 {
-            text-align: center;
-          }
-          .grilla {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-          }
-          .button-container {
-            display: flex;
-            justify-content: center;
-          }
-        `}</style>
       </div>
     )
   }

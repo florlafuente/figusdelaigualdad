@@ -28,7 +28,7 @@ export default class extends Component {
 
   render () {
     return (
-      <div>
+      <div className='album-container'>
         <h1>Las figus de la igualdad</h1>
         { // Si figus !== false rendereo una grilla donde se mostrara una figu 
           // x cada item del array this.state.figus
@@ -52,6 +52,20 @@ export default class extends Component {
             </button>
           </Link>
         </div>
+        <style jsx>{`
+          h1 {
+            text-align: center;
+          }
+          .grilla {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+          }
+          .button-container {
+            display: flex;
+            justify-content: center;
+          }
+        `}</style>
       </div>
     )
   }

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import Figurita from './Figurita'
 
 const figusGuardadas = [
-  'argentina',
-  'islandia',
-  'nigeria',
-  'croacia'
+  'Argentina',
+  'Islandia',
+  'Nigeria',
+  'Croacia'
 ]
 
 export default class extends Component {
@@ -36,7 +36,7 @@ export default class extends Component {
           <div className='grilla'>
             {this.state.figus.map((id) => 
                 <Figurita 
-                pais='argentina'
+                pais='Argentina'
                 foto='https://t1.ea.ltmcdn.com/es/images/7/9/5/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg'
                 nombre='Juana Perez'
                 key={id} />

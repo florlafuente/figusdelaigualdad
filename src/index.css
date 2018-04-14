@@ -33,6 +33,11 @@ align-items: center;
  width: 200px;
 }
 
+.figurita {
+  width: 300px;
+  height: 150px;
+}
+
 .st0{fill:#F2F0CD;}
 .st1{fill:none;stroke:#606161;stroke-miterlimit:10;}
 .st2{fill:#FFFFFF;}

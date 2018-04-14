@@ -4,12 +4,12 @@ import Figurita from './Figurita'
 
 const paises = [
   {
-    pais: 'argentina',
+    pais: 'Argentina',
     foto: 'https://t1.ea.ltmcdn.com/es/images/7/9/5/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg',
     nombre: 'Juana Perez'
   },
   {
-    pais: 'islandia',
+    pais: 'Islandia',
     foto: 'https://t1.ea.ltmcdn.com/es/images/7/9/5/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg',
     nombre: 'Pepa Gomez'
   }

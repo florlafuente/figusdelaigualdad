@@ -26,12 +26,22 @@ export default class extends Component {
           this.state.figus &&
           <div className='grilla'>
             {this.state.figus.map((id) => {
-              <div key={id}>
-                <p>Soy una figu</p>
-              </div>
+              return (
+                <div key={id}>
+                  <p>Soy una figu</p>
+                </div>
+              )
             })}
           </div>
+          // Muestro un boton para acceder al component Partido
         }
+        <div className='button-container'>
+          <button>
+            <span>
+              Ganá más figus!
+            </span>
+          </button>
+        </div>
       </div>
     )
   }

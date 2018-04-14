@@ -69,7 +69,10 @@ export default class extends Component {
           </div>
         </div>
         <style jsx>{`
-         .container-equipos {
+        h1 {
+          text-align: center;
+        }
+        .container-equipos {
             display: flex;
             justify-content: center;
             align-items: center;

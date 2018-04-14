@@ -1,4 +1,12 @@
 import React, { Component } from 'react';
+import Figurita from './Figurita';
+
+const figusGuardadas = [
+  'argentina',
+  'islandia',
+  'nigeria',
+  'croacia'
+]
 
 export default class extends Component {
   constructor(props) {
@@ -11,7 +19,7 @@ export default class extends Component {
 
   componentDidMount() {
     // Traigo las figus que tengo guardadas en sessionStorage y las guardo en mi state
-    const figus = window.sessionStorage.getItem('figus')
+    const figus = figusGuardadas
     this.setState({
       figus: figus
     })
@@ -25,13 +33,12 @@ export default class extends Component {
           // x cada item del array this.state.figus
           this.state.figus &&
           <div className='grilla'>
-            {this.state.figus.map((id) => {
-              return (
-                <div key={id}>
-                  <p>Soy una figu</p>
-                </div>
-              )
-            })}
+            {this.state.figus.map((id) => 
+                <Figurita 
+                pais='argentina'
+                foto='https://t1.ea.ltmcdn.com/es/images/7/9/5/img_por_que_las_gatas_se_comen_a_sus_gatitos_recien_nacidos_22597_600.jpg'
+                nombre='Juana Perez' />
+            )}
           </div>
           // Muestro un boton para acceder al component Partido
         }

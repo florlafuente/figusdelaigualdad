@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Album from './components/Album';
+import Album from './components/Album'
+import Partido from './components/Partido'
 import Figurita from './components/Figurita';
 import {
   BrowserRouter as Router,

@@ -68,26 +68,6 @@ export default class extends Component {
             </Link>
           </div>
         </div>
-        <style jsx>{`
-        h1 {
-          text-align: center;
-        }
-        .container-equipos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-         }
-        .container-preguntas {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-         .container-botones {
-           display: flex;
-           justify-content: space-around;
-           width: 200px;
-         }
-        `}</style>
       </div>
     )
   }

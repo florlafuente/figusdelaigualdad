@@ -3,3 +3,43 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
+.grilla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-equipos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-preguntas {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container-botones {
+ display: flex;
+ justify-content: space-around;
+ width: 200px;
+}
+
+.st0{fill:#F2F0CD;}
+.st1{fill:none;stroke:#606161;stroke-miterlimit:10;}
+.st2{fill:#FFFFFF;}
+.st3{fill:#606161;}
+.st4{fill:#282B66;}
+.st5{font-family:'Roboto-Black';}
+.st6{font-size:37px;}
+.st7{font-family:'Roboto-Medium';}
+.st8{font-size:13.2705px;}
+.st9{letter-spacing:1;}

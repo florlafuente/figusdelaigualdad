@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import Figurita from './Figurita';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Figurita from './Figurita'
 
 const figusGuardadas = [
   'argentina',
@@ -43,11 +44,13 @@ export default class extends Component {
           // Muestro un boton para acceder al component Partido
         }
         <div className='button-container'>
-          <button>
-            <span>
-              Ganá más figus!
-            </span>
-          </button>
+          <Link to='/partido'>
+            <button>
+              <span>
+                Ganá más figus!
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     )

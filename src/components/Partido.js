@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import Figurita from './Figurita'
 
 const paises = [
@@ -55,12 +56,16 @@ export default class extends Component {
         <div className='container-preguntas'>
           <p>¿Quién aprobo primero la ley de matrimonio igualitario?</p>
           <div className='container-botones'>
-            <button>
-              <span>País 1</span>
-            </button>
-            <button>
-              <span>País 2</span>
-            </button>
+            <Link to='/resultado?ganador'>
+              <button>
+                <span>País 1</span>
+              </button>
+            </Link>
+            <Link to='/resultado?perdedor'>
+              <button>
+                <span>País 2</span>
+              </button>
+            </Link>
           </div>
         </div>
         <style jsx>{`

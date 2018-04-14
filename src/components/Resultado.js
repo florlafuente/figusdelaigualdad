@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class Resultado extends Component {
     render() {
@@ -9,6 +10,9 @@ class Resultado extends Component {
                     <div className="explicacion">
                     En Argentina el matrimonio igualitario se aprobó en el año 2010 y en Islandia en el 2010
                     </div>
+                    <Link to='/'>
+                        <div className="volver">Volver al álbum</div>
+                    </Link>
                 </div>
             )
         } else {
@@ -18,6 +22,9 @@ class Resultado extends Component {
                     <div className="explicacion">
                     En Argentina el matrimonio igualitario se aprobó en el año 2010 y en Islandia en el 2010
                     </div>
+                    <Link to='/'>
+                        <div className="volver">Volver al álbum</div>
+                    </Link>
                 </div>
             )
         }
